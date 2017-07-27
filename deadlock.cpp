@@ -31,7 +31,7 @@ void Func_1(queue<int>&v1)
 {
 	
 	int b = 17;
-	std::unique_lock<std::mutex> lck(mtx,std::defer_lock);
+	std::unique_lock<std::mutex> lck(mtx,std::defer_lock);//attention the defer_lock!!!!
 	
 	while (1)
 	{
