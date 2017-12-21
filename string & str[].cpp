@@ -12,7 +12,7 @@ using namespace cv;
 
 
 #define NUM 192
-
+//改名字并保存
 int main()
 
 {
